@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (Secrets)
+.env
+server/.env
+
+# IDE and OS files
+.DS_Store
+.vscode/
+dist/
+build/
