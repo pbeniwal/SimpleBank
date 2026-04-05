@@ -5,7 +5,7 @@ A full-stack banking domain website built with React, Node.js, and PostgreSQL. I
 ## 🛠 Required Software
 Before running the application, ensure you have the following installed on your Windows laptop:
 1. **Node.js** (LTS Version) https://nodejs.org/
-2. **PostgreSQL** (with pgAdmin 4) https://www.postgresql.org/download/windows/
+2. **PostgreSQL** (with pgAdmin 4) https://www.postgresql.org/download/windows/ - Remember Password
 3. **Git** https://git-scm.com/download/win
 4. **VS Code** https://code.visualstudio.com/
 
@@ -14,8 +14,10 @@ Before running the application, ensure you have the following installed on your 
 ## 🚀 Getting Started
 
 ### 1. Database Setup
-1. Open **pgAdmin 4** and create a database named `local_bank`.
-2. Run the following SQL queries to create the tables:
+1. Open **pgAdmin 4** and click on Database and input the password if prompted
+2. Right-click on **Databases** > **Create** > **Database...** and name it `local_bank`.
+3. Open the **Query Tool** for `local_bank` and execute the following SQL to create your tables:
+
 ```sql
 CREATE TABLE accounts (
     id SERIAL PRIMARY KEY,
